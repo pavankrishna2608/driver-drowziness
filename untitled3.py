@@ -1,4 +1,4 @@
-'''Drivr detection'''
+'''Driver detection'''
 
 from scipy.spatial import distance
 from imutils import face_utils
@@ -52,7 +52,7 @@ while True:
 			flag = 0
 	cv2.imshow("Frame", frame)
 	key = cv2.waitKey(1) & 0xFF
-	if key == ord("q"):
+	if key == ord("c"):
 		break
 cv2.destroyAllWindows()
 cap.stop()
